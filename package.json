@@ -1,0 +1,14 @@
+{
+    "name": "btbouncer",
+    "description":"Bouncer for berrytube.tv",
+    "version": "0.1.3",
+    "dependencies": {
+        "socket.io-client":"^0.9.0",
+        "socket.io":"^0.9.0",
+        "socket.io-auth":"^1.0.0",
+        "readline-sync":"^0.8.0",
+        "daemon":"^1.1.0",
+        "ini":"^1.3.4",
+        "fixed-array":"^1.0.0"
+    }
+}
