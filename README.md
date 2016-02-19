@@ -10,7 +10,7 @@ It was intended to be a "oh let me hack this shit out in a few hours while hungo
 ##Installing
 
 * Linux users: `git clone` this repo, make sure you have nodejs installed, along with npm, then run `npm install` in wherever you put this. I guess you download the zip below too.
-* Windows users: Download and extract [BTbouncer.zip](https://q-z.xzy/BTbouncer.zip), open that folder, then double click bt-bouncer.bat (this will take care of some prep stuff, as well as start the bouncer)
+* Windows users: Download and extract [BTbouncer.zip](https://q-z.xyz/BTbouncer.zip), open that folder, then double click bt-bouncer.bat (this will take care of some prep stuff, as well as start the bouncer)
 
 ##Configuring
 
