@@ -27,6 +27,6 @@ It was intended to be a "oh let me hack this shit out in a few hours while hungo
 ##Bugs/Missing Features (PLEASE READ)
 
 * **Kicks will break the bouncer** - I haven't gotten around to fixing this because I don't want to get kicked repeated, spam chat with spaghetti, etc, and the testing Tube doesn't have the spaghetti kicker turned on last I checked.
-* **Occasionally(pretty rarely) the connection just gets stuck** - Solved by restarting the bouncer, cause it's so rare
+* **Occasionally(pretty rarely) the connection just gets stuck** - Solved by restarting the bouncer, cause it's so rare I never have gotten around to debugging why. Though it does happen slightly more on shitty connections.
 
 * **The features that split ops chat from regular chat for the android app are largely untested**
