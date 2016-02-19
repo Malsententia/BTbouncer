@@ -42,8 +42,8 @@ try{
   fs.writeFileSync('./config.ini',defaultINI);
   config = ini.parse(defaultINI);
 }
-//yeah, using lots of globals, not exactly good style, but sorta mimicing
-//the BT client's style for ease, I guess.
+
+//yeah...a bunch of globals
 NAME = config.username;
 PORT = parseInt(config.port);
 console.log(JSON.stringify(config));
@@ -84,7 +84,7 @@ if (!NAME) {
   }
 }
 
-//if it's a daemon(whyyyy) try to read the NAME from the environment variable
+//If it's going to be daemon, after reading the name, set the environment variable for when it's rerun
 if (DAEMON && NAME) {
   var env = process.env;
   env.BTBOUNCENAME = NAME;
